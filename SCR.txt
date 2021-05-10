@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+--------------------------------------------
+
+Package:                     coral-posenet-imx.git
+Outgoing License:            Apache-2.0 
+License File:                LICENSE
+Package Category:            MachineLearning
+Type of Content:             source
+Description and comments:    Google Coral Edge TPU posenet C++ library
+Release Location:            https://source.codeaurora.org/external/imx/coral-posenet-imx
+Origin:                      Google Coral Edge TPU (Apache-2.0)
