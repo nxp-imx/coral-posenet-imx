@@ -23,6 +23,10 @@ AC_CHECK_HEADER_STDBOOL
 AC_TYPE_SIZE_T
 AC_TYPE_UINT8_T
 
+dnl set the plugindir where plugins should be installed
+plugindir="\$(libdir)"
+AC_SUBST(plugindir)
+
 AC_OUTPUT(
 Makefile
 )

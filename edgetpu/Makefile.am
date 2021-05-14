@@ -14,7 +14,7 @@ TFLITE_LIBS = -ltensorflow-lite
 EDGETPU_DIR = $(top_srcdir)/src/cpp/posenet
 EDGETPU_CXXFLAGS = -I$(EDGETPU_DIR)
 
-noinst_LTLIBRARIES = libgooglecoraledgetpuposenet.la
+plugin_LTLIBRARIES = libgooglecoraledgetpuposenet.la
 
 noinst_HEADERS = \
   $(EDGETPU_DIR)/posenet_decoder.h \
