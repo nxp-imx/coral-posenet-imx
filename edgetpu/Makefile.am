@@ -29,5 +29,6 @@ libgooglecoraledgetpuposenet_la_CXXFLAGS = \
   $(TFLITE_CXXFLAGS)
 
 libgooglecoraledgetpuposenet_la_LIBADD = \
-  $(TFLITE_LIBS)
+  $(TFLITE_LIBS) \
+  -lflatbuffers
 
